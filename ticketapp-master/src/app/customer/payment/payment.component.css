@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@400;500&display=swap");
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+nav {
+  background-color: #293462;
+  height: 10vh;
+  width: auto;
+}
+
+nav a {
+  color: #fff !important;
+}
+
+.movie-tag {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 25rem;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #eeeeee;
+  color: #000;
+  height: auto;
+}
+.movie-name {
+  font-size: 20px;
+}
+.card img {
+  height: 250px;
+  width: auto;
+}
+.checked {
+  color: yellowgreen;
+}
+#font-in {
+  position: relative;
+}
+.fa-search {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+p {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor:pointer;
+  margin-left: 20px;
+}
+button:hover{
+  background-color: #D61C4E !important;
+}
+
+.input {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.589);
+  height: 40px;
+  width: 290px;
+  
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.row{
+  font-family: "Arima", cursive;
+}
+
+
+
+.sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  background-color: #f9f9c5;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

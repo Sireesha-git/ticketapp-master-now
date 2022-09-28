@@ -1,0 +1,52 @@
+<app-nav-bar></app-nav-bar>
+<div class="main-ta">
+  <div class="hello">
+    <div class="theatre-revenue">
+      <h5>Total Revenue in this Theatre</h5>
+      <hr />
+      <p>{{ total }}</p>
+    </div>
+  </div>
+  <div class="hello">
+    <div class="theatre-revenue">
+      <div class="form-group">
+        <label for="inputStartDate" class="text-black">Start Date :</label>
+        <input
+          type="date"
+          [(ngModel)]="startdate"
+          class="form-control"
+          id="inputPassword2"
+          placeholder="Start Date"
+        />
+      </div>
+      <div class="form-group">
+        <label for="inputEndDate" class="text-black">End Date :</label>
+        <input
+          type="date"
+          required
+          [(ngModel)]="enddate"
+          class="form-control"
+          id="inputPassword2"
+          placeholder="End Date"
+        />
+      </div>
+      <div class="form-group">
+        <button
+          type="submit"
+          (click)="revenueCalculator()"
+          class="form-control"
+          style="width: 40% ; margin-left:200px; background-color: yellowgreen;"
+        >
+          Calculate Revenue
+        </button>
+      </div>
+      <div class="form-group">
+        <h5 class="text-black mx-sm-3 pt-4">
+          Revenue generated Based on Date : ₹ {{ revenue }}
+        </h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+
